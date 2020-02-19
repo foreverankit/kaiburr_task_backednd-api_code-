@@ -11,6 +11,8 @@ There can be many ways to do this. The one which i used is using Intellij ide, i
 
 Click on file->new->project, then select Spring Intitializer and click on next. 
 
+![Screenshot from 2020-02-20 00-34-45](https://user-images.githubusercontent.com/31029148/74873979-3057b980-5386-11ea-81a8-fea4d11fa815.png)
+
 After this you need to name your project or package which you want to create. Then you have to also add the dependencies you need. For this project it was web and mongodb.
 
 
