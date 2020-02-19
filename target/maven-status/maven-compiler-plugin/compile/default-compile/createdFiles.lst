@@ -1,0 +1,6 @@
+rc/ServerController.class
+rc/SpringbootMongodbApplication.class
+rc/ServerRepository.class
+rc/DbSeeder.class
+rc/Server.class
+rc/ResourceNotFoundException.class
