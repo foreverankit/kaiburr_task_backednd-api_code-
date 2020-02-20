@@ -143,9 +143,10 @@ spring.data.mongodb.database=ServerDb
 
 ![Screenshot from 2020-02-20 01-11-55](https://user-images.githubusercontent.com/31029148/74874974-93961b80-5387-11ea-86e5-456be7e1fb3c.png)
 
+Now its time to run our application. Once we run it and if we have robo3t we can see that our objects are inserted in the database. If you dont have robo3t install it, its just a workbench. Once you run your spring boot application and open robo3t we will see the objects created. As you can see the serverdb is created with th two objects that we mentioned in dbSeeder class. Our connection to the mongodb database is successfully done.
+
 ![Screenshot from 2020-02-20 01-16-30](https://user-images.githubusercontent.com/31029148/74875033-adcff980-5387-11ea-85f5-066791f16297.png)
 
-Now its time to run our application. Once we run it and if we have robo3t we can see that our objects are inserted in the database. If you dont have robo3t install it, its just a workbench. Once you run your spring boot application and open robo3t we will see the objects created. As you can see the serverdb is created with th two objects that we mentioned in dbSeeder class. Our connection to the mongodb database is successfully done.
 
 
 # RestController
