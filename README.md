@@ -155,17 +155,17 @@ We have four get request mapping and two post request mapping for inert and upda
 
 ## RestController Detail Functionality
 
-‘/api’ is the root mapping
+`/api` is the root mapping
 
-‘/api/servers’- If we hit this we get lsit of all the serve objects which resides in the mongodb database. Here we are using serverRepository object to perform the crud oberations.
+`/api/servers`- If we hit this we get lsit of all the serve objects which resides in the mongodb database. Here we are using serverRepository object to perform the crud oberations.
 
-‘/api/id’ - Gives the object with the id passed. Carefull, this is not basic crud so in the ServerRepository class declare the function as findBy and then what you want to find, here id so the function naming will be findById(String id).
+`/api/id` - Gives the object with the id passed. Carefull, this is not basic crud so in the ServerRepository class declare the function as findBy and then what you want to find, here id so the function naming will be findById(String id).
 
-‘/api/servers’ - If we hit post request on this. This will take the request body and save the body passed in db. Same is in case of put request but here we will also pass the id in the requestbody and during post it will be automatically created.
+`/api/servers` - If we hit post request on this. This will take the request body and save the body passed in db. Same is in case of put request but here we will also pass the id in the requestbody and during post it will be automatically created.
 
-‘/api/name/{name passed}’ - Gives the object with the name passed in url.
+`/api/name/{name passed}` - Gives the object with the name passed in url.
 
-‘/api/delete/{id passed}’ - Deletes the object with the given id. 
+`/api/delete/{id passed}` - Deletes the object with the given id. 
 
 The code will look like this.
  
